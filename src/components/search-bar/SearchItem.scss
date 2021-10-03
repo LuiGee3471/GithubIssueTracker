@@ -1,0 +1,13 @@
+$hover-color: rgb(214, 214, 214);
+
+.search-item {
+    padding: 0.2em 0.5em;
+}
+
+.search-item:hover {
+    background-color: $hover-color;
+}
+
+.search-item:active {
+    background-color: darken($hover-color, 30%);
+}

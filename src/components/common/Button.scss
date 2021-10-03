@@ -1,0 +1,16 @@
+$green: #238636;
+$dark: #21262d;
+
+.button {
+    border-radius: 0.25em;
+    background-color: $green;
+    padding: 0.5em 1em;
+    border: none;
+    color: white;
+    font-weight: bold;
+    height: 2em;
+
+    &.secondary {
+        background-color: $dark;
+    }
+}
