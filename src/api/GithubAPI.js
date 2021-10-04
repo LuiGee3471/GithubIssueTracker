@@ -34,7 +34,7 @@ const GithubAPI = {
     },
 
     async getIssues(owner, name, page) {
-        const queryString = `state=all&per_page=10&page=${page}`;
+        const queryString = `state=all&page=${page}`;
         const response = await fetch(`${GITHUB_API_URI}/repos/${owner}/${name}/issues?${queryString}`);
         const json = await response.json();
         return json.map((issue) => ({...issue, repo: name}));

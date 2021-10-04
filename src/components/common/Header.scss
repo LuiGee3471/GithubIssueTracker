@@ -1,0 +1,18 @@
+.semi-header {
+    margin-top: 2em;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.semi-header::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    top: 100%;
+    margin: 5px 0;
+    background-color: gray;
+    width: 100%;
+    left: 0;
+}

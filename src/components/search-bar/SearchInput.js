@@ -15,7 +15,7 @@ const SearchInput = ({query, setQuery, onClickInput}) => {
     }
 
     return (
-        <input onClick={onClickInput} onKeyDown={onKeyDown} className="search-input" type="text" value={query} onChange={onChange} />
+        <input placeholder="검색할 Repository 이름 입력" onClick={onClickInput} onKeyDown={onKeyDown} className="search-input" type="text" value={query} onChange={onChange} />
     )
 }
 

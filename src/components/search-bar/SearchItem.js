@@ -7,7 +7,7 @@ const SearchItem = ({item, onClickResult}) => {
     }
 
     return (
-        <li key={item.id} className="search-item" onClick={onClickItem}>
+        <li className="search-item" onClick={onClickItem}>
             {item.name}
         </li>
     )
